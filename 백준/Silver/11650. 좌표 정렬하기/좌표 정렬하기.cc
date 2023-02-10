@@ -35,14 +35,6 @@ int main()
 		printf("%d %d\n",vecPair[i].first,vecPair[i].second);
 		// cout << vecPair[i].first << " " << vecPair[i].second << endl;
 	}
-	// vector<pair<int, int>>::iterator iter = vecPair.begin();
-
-	// while (iter != vecPair.end())
-	// {
-	// 	cout << iter->first << " " << iter->second << endl;
-	// 	++iter;
-	// }
-
 
 
 
