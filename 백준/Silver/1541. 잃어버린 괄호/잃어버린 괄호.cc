@@ -1,7 +1,4 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <map>
+#include <iostream>                               
 #include <string>
 
 using namespace std;
@@ -43,11 +40,6 @@ int main()
         }
         else if (strInput[i] == '-')
         {
-            // if (iNums == 0)
-            // {
-            //     plus = bCountingPlus? 1 : -1;
-            //     iNums = stoi(num) * plus;
-            // }
             plus = bCountingPlus? 1 : -1;
             iNums += stoi(num) * plus;
             answer += iNums;
